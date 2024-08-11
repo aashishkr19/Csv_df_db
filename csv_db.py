@@ -43,7 +43,6 @@ if __name__=='__main__':
            .getOrCreate()
     csv_file=input('Enter File path')
     data=file_load(csv_file)
-    #print(data_cleaning(data).show())
     cleaned_data=data_cleaning(data)
     final_data=data_transform(cleaned_data)
     data_loading(final_data)
